@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>High Te-X - Modes de Paiement</title>
+		<link rel="stylesheet" href="style_2.css">
+		
+		<!-- - - - - - - - - - - - Liens FONTS UTILISéS - - - - - - - - - - - - -->
+
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600i" rel="stylesheet">
+
+		<!-- - - - - - - - - - - - Liens FONTS UTILISéS - - - - - - - - - - - - -->
+
+	</head>
+	<body id="id_mdp">
+		
+	<!-- MENU --> 
+		<nav>
+			<div class="table">
+				<ul>
+					<li class="menu_main"><a href="main.html">Accueil</a></li>
+					<li class="menu_act"><a href="activites.html">Activités</a></li>
+					<li class="menu_pro"><a href="produits.html">Nos Produits</a></li>
+					<li class="menu_liv"><a href="livraison.html">Livraison</a></li>
+					<li class="menu_mdp"><a href="mode-de-paiement.html">Modes de paiement</a></li>
+					<li class="menu_abu"><a href="main.html#ancre">About Us</a></li>
+					<li class="menu_sec"><a href="support-et-contact.html">Support & Contact</a></li>
+				</ul>
+			</div>	
+		</nav>
+
+	<!--  -->
+		<section>
+			<div class="bloc_text">
+				<input type="text" name="name" class="text" placeholder="Votre Nom" />
+				<input type="text" name="post_name" class="text" placeholder="Votre Post-Nom"/>
+			</div>
+
+			<div class="bloc_choices">
+				<div class="choice">
+					<input type="radio" name="paiement" value="cdc">
+					<label for="cdc">Carte De Crédit</label>
+				</div>
+				<div class="choice">
+					<input type="radio" name="paiement" value="esp">
+					<label for="esp">Espèces</label>
+				</div>
+			</div>
+
+			<div class="bloc_image">
+				<img src="pictures/ps/carte_de_credit.png" class="image">
+				<img src="pictures/ps/especes.jpg" class="image">
+			</div>
+
+			<div class="bloc_countries">
+				<div class="bloc_pays">
+					<p class="pays">Pays : </p>
+				</div>
+				<div>
+					<select name="contry" class="countries">
+						<option value="maroc">Maroc</option>
+						<option value="france">France</option>
+						<option value="usa">USA</option>
+						<option value="congo">Congo</option>
+						<option value="rd_congo">RD Congo</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="bloc_submit">
+				<input type="submit" value="Submit" class="submit">
+			</div>
+		</section>
+
+		<!-- BAS DE PAGE --> 
+		<footer>
+			<p>&copy; 2021 High Te-X - Tous les droits sont réservés</p>
+		</footer>
+		
+	</body>
+</html>

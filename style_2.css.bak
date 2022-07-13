@@ -1,0 +1,481 @@
+/* 
+FONTS UTILISéS
+	MV Boli ; Maiandra GD ; Century Gothic ; Cambria  : à installer
+
+	Josefin Sans ; Buxton Sketch
+*/ 
+
+@font-face {
+	font-family: 'BuxtonSketch';
+	src: url('Font_BS/BuxtonSketch.eot');
+	src: local('Font_BS/BuxtonSketch'), url('Font_BS/BuxtonSketch.woff') format('woff'), url('Font_BS/BuxtonSketch.ttf') format('truetype');
+}
+
+/* ------------------------------------------ BACKGROUND -----------------------------------------------*/
+
+#id_main
+{
+	background-color: #efefef;
+}
+
+#id_sec
+{
+	background-image: url("pictures/ps/back1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#id_pro
+{
+	background-color: #333;
+
+}
+
+#id_act
+{
+	background-color: #333;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#id_mdp
+{
+	background-image: url("pictures/ps/back5.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#id_liv
+{
+	background-color: #efefef;
+}
+
+/*----------------------------------------------- # -----------------------------------------------------*/
+
+#id_main h1
+{
+	font-family: 'BuxtonSketch',sans-serif;
+	font-size: 60px;
+	text-align: center;
+	color: #6A7F85;
+}
+
+#id_sec h1
+{
+	text-align: center;
+	font-family: 'BuxtonSketch',sans-serif;
+	color: #fff;
+}
+
+/*------------------------------------------------- ACCUEIL -----------------------------------------------*/
+
+.section
+{
+	background-color: #c9ced0;
+	width: 510px;
+	display: inline-block;
+	margin-bottom: 10px;
+	vertical-align: middle;
+}
+
+#id_main section p
+{
+	font-family: Maiandra GD, sans-serif;
+	text-align: center;
+	width: 470px;
+	padding: 5px;
+	margin: auto;
+}
+
+#id_main section a
+{
+	font-family: Cambria, sans-serif;
+	text-align: center;
+	text-decoration: none;
+}
+
+.voirplus
+{
+	text-align: center;
+	clear: both;
+	margin: auto;
+	width: 100%;
+	background-color: #c9ced0;
+}
+
+.voirplus a
+{
+	text-decoration: none;
+	color: #000;
+	font-family: Maiandra GD, sans-serif
+}
+
+.section .image
+{
+	padding: 5px;
+}
+
+.footer
+{
+	margin-top: 170px;
+	padding: 5px 0 0 0;
+}
+
+.footer h2, .footer_link h3
+{
+	font-family: Maiandra GD, Cambria, sans-serif;
+}
+
+.footer p
+{
+	text-align: center;
+	font-family: Josefin Sans, 'BuxtonSketch';
+}
+
+.div_h2
+{
+	margin: 0 0 90px 0;
+}
+
+.footer_link .image
+{
+	width: 50px;
+	padding: 10px 0 5px 5px;
+}
+
+/*-------------------------------------------------- PRODUITS -----------------------------------------------*/
+
+.electronics
+{
+	margin: 10px auto;
+}
+
+#id_pro .images
+{
+	display: inline-block;
+	background-color: #C9CED0;
+	width: 510px;
+	margin-top: 20px;
+	vertical-align: middle;
+}
+
+#id_pro .image
+{
+	padding: 5px 0 0 5px;
+}
+
+.prix
+{
+	text-align: center;
+	opacity: 0;
+}
+
+#id_pro .images:hover .prix
+{
+	font-family: Maiandra GD,sans-serif;
+	text-align: center;
+	margin-bottom: 5px;
+	background-color: #b1a1be;
+	opacity: 100;
+}
+
+.a
+{
+	font-family: Cambria, sans-serif;
+	text-align: center;
+	padding-bottom: 5px;
+	background-color: #b1a1be;	
+}
+
+.images a
+{
+	text-decoration: none;
+}
+
+/*---------------------------------------- SUPPORT & CONTACT -------------------------------------------------*/
+
+.adresse
+{
+	margin: 75px auto;
+	text-align: center;
+	font-family: 'BuxtonSketch',sans-serif;
+	line-height: 50px;
+	font-size: 30px;
+}
+
+.contact
+{
+	text-align: center;
+	font-family: Century Gothic, sans-serif;
+	font-size : 20px;
+}
+
+.contact a
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+/*------------------------------------------------- FOOTER ---------------------------------------------------- */
+
+footer
+{
+	font-family: 'BuxtonSketch', sans-serif;
+	font-size: 12px;
+	margin-top: 170px;
+	text-align: center;
+}
+
+/*---------------------------------------------------- MENU ----------------------------------------------- */
+
+nav
+{
+	font-family: MV Boli, sans-serif;
+	color: #fff;
+	background-color : #486e78;
+	width: 100%;
+}
+
+nav ul
+{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li 
+{
+	list-style-type: none;
+	float: left;
+}
+
+nav a 
+{
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 30px;
+	color: #fff;
+}
+
+nav li:hover a 
+{
+	padding: 15px 30px 20px 30px;
+}
+
+.table
+{
+	display: table;
+	margin: 0 auto;
+
+}
+
+/*---------------------------------------------- LOGO ----------------------------------------------------*/
+.logo
+{
+	width: 100%;
+}
+
+.logo_image
+{
+	padding-top: 5px;
+	width: 100%;
+}
+
+/* -------------------------------------- - MODE DE PAIEMENT ----------------------------------------*/
+
+.bloc_text
+{
+	padding: 10px;
+	margin: 10px auto;
+}
+
+.bloc_choices
+{
+	margin: 5px 0 10px 10px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+    border-radius: 4px;
+	width: 250px;
+	padding: 5px;
+	display: inline-block;
+}
+
+.choice
+{
+	font-family: Josefin Sans, sans-serif;
+	font-size: 15px;
+}
+
+.text
+{
+    width: 300px;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Josefin Sans, sans-serif;
+    font-size: 15px;
+}
+
+.bloc_pays, .bloc_submit
+{
+	padding: 0 0 0 10px;
+}
+
+.pays
+{
+	float: left;
+	width: 65px;
+	height: 15px;
+	padding: 8px 55px 15px 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-family: Josefin Sans, sans-serif;
+    font-size: 15px;
+}
+
+.countries
+{
+	margin: 15px 0 20px 10px;
+	width: 100px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-family: Josefin Sans, sans-serif;
+}
+
+.submit
+{
+	margin: 5px auto;
+	width: 100px;
+	padding: 10px 5px 10px 5px;
+	border: 1px solid #ccc;						
+	border-radius: 4px;
+	font-family: Maiandra GD, sans-serif;
+
+}
+
+#id_mdp .image
+{
+	width: 50px;
+}
+
+#id_mdp .bloc_image
+{
+	margin-top: 5px; 
+	margin-left: 10px;
+}
+
+#id_mdp section
+{
+	margin-top: 50px;
+	margin-left: 40px; 
+}
+
+
+/* --------------------------------------------------- ACTIVITES ------------------------------------------ */
+
+.container .paragraphe
+{
+	text-align: center;
+	color: #efefef;
+	font-family: Maiandra GD, sans-serif;
+	padding-top: 25px;
+}
+
+.container h1
+{
+	background-color: #486e78;
+	text-align: center;
+	color: #efefef;
+	font-family: Maiandra GD, sans-serif;
+	width: 700px;
+}
+
+.a_prix
+{
+	font-family: 'BuxtonSketch', sans-serif;
+	font-size: 20px;
+	color: #486e78;
+}
+
+.bloc_vente
+{
+	margin: 50px;
+}
+
+#id_act .bloc_vente .paragraphe
+{
+	padding: 20px;
+}
+
+#id_act .images
+{
+	padding-top: 10px;
+}
+
+#id_act .image
+{
+	padding: 5px;
+	background-color: #efefef;
+	width: 250px;
+}
+
+.bloc_location
+{
+	margin: 80px auto;
+}
+
+.bloc_location a, .bloc_echange a
+{
+	color: #486e78;
+}
+
+.link
+{
+	font-family: 'BuxtonSketch', sans-serif;
+	font-size: 25px;
+	margin-top: 25px;
+}
+
+.link a
+{
+	text-decoration: none;
+	color: #fff;
+
+}
+
+/*------------------------------------------------ LIVRAISON ------------------------------------------------- */
+
+.mer
+{
+    width: 300px;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Josefin Sans, sans-serif;
+    font-size: 15px;
+}
+
+#id_liv th
+{
+	margin-left: 500px;
+}
+
+.tableau p, .tableau h2
+{
+	text-align: left;
+	font-family: Josefin Sans, sans-serif;
+}
+
+.tableau
+{
+	margin-top: 30px;
+}
+
+.button 
+{    
+    padding-right: 300px;
+}

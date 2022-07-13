@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>High Te-X - Livraison</title>
+		<link rel="stylesheet" href="style_2.css">
+		
+		<!-- - - - - - - - - - - - Liens FONTS UTILISéS - - - - - - - - - - - - -->
+
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600i" rel="stylesheet">
+
+		<!-- - - - - - - - - - - - Liens FONTS UTILISéS - - - - - - - - - - - - -->
+
+	</head>
+	<body id="id_liv">
+	
+	<!-- MENU --> 
+		<nav>
+			<div class="table">
+				<ul>
+					<li class="menu_main"><a href="main.html">Accueil</a></li>
+					<li class="menu_act"><a href="activites.html">Activités</a></li>
+					<li class="menu_pro"><a href="produits.html">Nos Produits</a></li>
+					<li class="menu_liv"><a href="livraison.html">Livraison</a></li>
+					<li class="menu_mdp"><a href="mode-de-paiement.html">Modes de paiement</a></li>
+					<li class="menu_abu"><a href="main.html#ancre">About Us</a></li>
+					<li class="menu_sec"><a href="support-et-contact.html">Support & Contact</a></li>
+				</ul>
+			</div>	
+		</nav>
+
+
+		<div class="tableau">
+
+			<center>
+			<table>
+			<tr>
+			<div  class="rub">
+			<th>
+			<form>
+
+			<h2> Ajoutez une nouvelle adresse </h2>
+			<P> et cliquez sur (envoyer sur cette adresse) pour valider </p>
+		 
+			 <p> 
+			 <label>
+			 	Nom et Prénom: 
+			 </label> </br> </br>
+			 <input type="text" name="pseudo" class="mer" />
+			 </p>
+
+			 <p> 
+			 <label>
+			 	 Adresse ligne 1 :
+			 </label> </br> </br>
+			 <input type="text" name="pseudo" class="mer" placeholder="rue , voie , boite postal , nom de société etc..."/>
+			 </p>
+
+			 <p> 
+			 <label>
+			 	 Adresse ligne 2 :
+			 </label> </br> </br>
+			 <input type="text" name="pseudo" class="mer" placeholder=" batiment , étage , lieu-dit , indication au livreur etc... "/>
+			 </p>
+
+			  <p> 
+			 <label>
+			 	 Ville :
+			 </label> </br> </br>
+			 <input type="text" name="pseudo" class="mer" />
+			 </p>
+
+			  <p> 
+			 <label>
+			 	 Etat / Région / Canton :
+			 </label> </br> </br>
+			 <input type="text" name="pseudo" class="mer" />
+			 </p>
+
+			 <p> 
+			 <label>
+			 	 Code postal :
+			 </label> </br> </br>
+			 <input type="number" name="pseudo" class="mer" />
+			 </p>
+
+			  <p> 
+			 <label>
+			 	 Pays ou DOM-TOM :
+			 </label> </br> </br>
+		       <select name="le_nom" class="mer">
+		           <option value="ta_valeur">Maroc</option>
+		           <option value="ta_valeur">France</option>
+		           <option value="ta_valeur">Congo</option>
+		           <option value="ta_valeur">RDC</option>
+		                   
+		       </select>
+		   </p>
+		     <p> 
+			 <label> 
+			 	 Numéro de téléphone : 
+			 </label> </br> </br>
+			 <input type="number" name="pseudo" class="mer"/>
+			 </p> </br>
+
+			  <div class="button">
+		        <button type="submit">Envoyer</button>
+		    </div>
+
+
+			 	<h2> Complément d'adresse</h2>
+		      <p>
+		      Notre objectif est de respecter ces préférences autant que possible, toutefois nous ne pouvons 
+		      pas vous garantir que tous les intervenants logistiques suivront les instructions indiquées en 
+		      toutes circonstances
+		      </p>
+
+			 </th>
+		  </div>
+		 <th>
+		     <h2>
+		       	Ou chercher un nouveau point de collecte
+		     </h2>
+		           <p>
+		       	      Choisissez la livraison rapide (gratuite selon les conditions et disponible pour tous les points de collecte) 
+		       	      ou livraison en 1 jour ouvré (gratuite pour les clients Prime et 6,99€ pour articles media et 7,99 € pour les 
+		       	      autres articles éligibles)
+		              Veuillez sélectionner le pays, puis indiquer une adresse, un code postal ou un emplacement.
+		           </p>
+
+		           </form>
+		    <table>
+
+		    <tr>
+		    
+		       <td>
+		          <p> 
+			        <label>
+			 	        Pays ou DOM-TOM :
+			        </label>
+			        </td>
+
+			        <td>
+			         <select name="le_nom" id="le_nom" class="mer">
+		               <option value="ta_valeur">Maroc</option>
+		                <option value="ta_valeur">France</option>
+		                <option value="ta_valeur">Congo</option>
+		               <option value="ta_valeur">RDC</option>
+		                   
+		          </select>
+
+		         </p>
+		    </td>
+		    </tr>
+
+		      <tr>
+		        <td>
+		           <p>
+			        <label>
+			 	        Mode de livraison :
+			        </label>
+			        </p>
+			        </td>
+
+			         <td>
+			        <select name="le_nom" id="le_nom" class="mer">
+		               <option value="ta_valeur">livraison rapide </option>
+		                <option value="ta_valeur">livraison en un jour </option>
+		                <option value="ta_valeur">livraison en un point de collecte</option>
+		           
+		          </select>
+		        
+		          </td>
+		             </tr>
+
+		          <tr>
+		          <td> 
+			      <p> 
+			      <input type="radio" name="adresse" value="adrs">
+			        <label for="adrs">
+			 	        Recherche par adresse </br>détaillée :
+			        </label>
+			         </p>
+			         </td>
+			         <td>
+			        <input type="text" name="pseudo" class="mer" placeholder="exemple : 1 rue du mont, 75001 Paris">
+			        </td>
+
+		            </tr>
+
+
+		          <tr>
+			       <td>
+			      <p> 
+			      <input type="radio" name="code" value="cdp">
+
+			        <label for="cdp">
+			 	        ou Recherche par code postal :
+			        </label>
+			         </p>
+			         </td>
+			         <td>
+			           <input type="text" name="pseudo" class="mer" placeholder="exemple : 75001">
+			         </td>
+		            </tr>
+			        
+		           <tr>
+		           <td>
+			         <p> 
+			         <input type="radio" name="emplacement" value="emplmnt">
+			        <label for="emplmnt">
+			 	        ou Recherche par emplacement :
+			        </label>   </p>
+			         </td>
+		             <td>
+			        <input type="text" name="pseudo"/ class="mer">
+			        
+		           </td>
+		              </tr>
+		            <tr>
+		          <td>
+			      <p> 
+			      <input type="radio" name="nom" value="locker">
+			        <label for="locker">
+			 	        Recherche par nom du locker :
+			        </label>
+			        </p>
+			      </td>
+		               <td>
+		                 <input type="text" name="pseudo"/ class="mer">
+		            </td>
+		            </tr>
+		            </form>
+		          </table>
+		          </br></br>
+		           <div class="button">
+		                <button type="submit">Chercher</button>
+		            </div>
+		            </br></br>
+		            <p>Pour la France, la livraison rapide en point de collecte gratuite à partir de 1000 euros d'achats pour les autres produits</p>
+
+			 
+		           </br></br></br></br></</br></br></br></br></br></br></br></br></br>
+		           </br></br></br></br></br></br></br></br></br></br>
+		    
+		  
+
+		   </th>    
+
+			</form>
+			</tr>
+			</table>
+		 </center>
+
+		</div>
+
+
+	<!-- BAS DE PAGE --> 
+		<footer>
+			<p>&copy; 2021 Luxury Shop - Tous les droits sont réservés</p>
+		</footer>
+	
+	</body>
+</html>
